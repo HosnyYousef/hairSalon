@@ -17,6 +17,10 @@
 	clear: both;
 }
 
+html {
+     font-size: 62.5%;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -37,15 +41,25 @@ header nav > * {
      height: 50px;
      background-color: orange;
      padding: 0;
+     font-size: 1.3rem;
 }
 
-header nav li  {
+header nav li {
      float: left;
      width: 16.666666666666667%;
      background-color: blanchedalmond;
-
+     display: inline;
 }
 
+header nav ul {
+     list-style-type: none;
+} 
+
+header nav li a {
+     display: block;
+     padding: 8px;
+     background-color: red;
+   }
 
 /* I don't know how to target first section in <main> with specificity */
 /* main ~ section {
@@ -74,10 +88,17 @@ h1 {
      color: white;
 }
 
+.mainTitle {
+     font-size: 7rem;
+}
+
 .firstButton {
      border: solid 1px black;
      background-color: black;
      color: white;
+     width: auto;
+     height: auto;
+     padding: 10px 30px;
 }
 
 
@@ -113,10 +134,28 @@ main {
      border: solid 1px black;
      background-color: black;
      color: white;
-     height: 100px;
-     margin: 40px 0 0px 110px;
-     padding: 0 30px;
+     width: 175px;
+     height: 200px;
+     margin: 40px 0 40px 130px;
+     padding: 30px 20px;
+     font-size: 1.5rem;
 }
+
+.firstVisitFontSize{
+     font-size: 0.8rem;
+}
+
+.percentSize {
+     font-size: 2.5rem;
+}
+
+.bookOnlineButton {
+     font-size: 1rem;
+     height: auto;
+     width: auto;
+     padding: 10px 20px;
+}
+
 
 /* .firstvisit > * {
      float: left;
