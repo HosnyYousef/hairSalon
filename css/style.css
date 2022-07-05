@@ -41,13 +41,28 @@ body {
 header {
      display: flex;
      justify-content: space-between;
+     align-content: stretch;
      align-items: center;
      padding: 30px 10%;
      font-size: 2rem;
-     
+     align-content: stretch;
 }
 
+header > nav {
+     padding-top: 40px;
+}
 
+/* .gg-search, .gg-shopping-bag {
+float: right;
+margin: 20px;
+border: 10px;
+} */
+
+.HeaderIcons{ 
+     width: auto; 
+     display: inline-block;
+     justify-content: space-evenly;
+}
 
 
 /* search */
@@ -75,7 +90,7 @@ header {
      background: currentColor;
      transform: rotate(-45deg);
      top: 10px;
-     left: 12px
+     left: 12px;
  }
 
 /* shopping bag */
