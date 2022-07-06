@@ -24,6 +24,8 @@ html {
      font-family: 'Cinzel', serif;
      font-family: 'Roboto', sans-serif;
      font-family: 'Gideon Roman', cursive;
+     font-family: 'Neuton', serif;
+     font-family: 'Cinzel', serif;
 }
 
 /******************************************
@@ -64,10 +66,11 @@ a {
 /* .endLinkLeft {
      padding: 0 0 0 10px;
 }
+*/
 
 .endLinkRight {
-     padding: 10px 0 0 0;
-} */
+     font-size: 1.5rem;
+} 
 
 /* .gg-search, .gg-shopping-bag {
 float: right;
@@ -104,7 +107,7 @@ border: 10px;
      padding: 0 18px 0 0;
  }
 
-/* BODY */
+/* FRONT IMAGE */
 
 
 .logo {
@@ -132,11 +135,13 @@ border: 10px;
 
 button {
      padding: 9px 25px;
-     background-color: rgba(0,136,169,1);
+     background-color: white;
      border: none;
-     border-radius: 50px;
+     /* border-radius: 50px; */
      cursor: pointer;
      transition: all 0.3s ease 0s;
+     padding-top: 10px;
+     margin-top: 30px;
 }
 
 button:hover {
@@ -200,8 +205,12 @@ h1 {
 
 .mainTitle {
      font-size: 10rem;
-     font-weight: 400;
-     padding: 0 500px 0 0;
+     font-weight: 200;
+     font-family: 'Cinzel', serif;
+}
+
+.mainWords {
+     font-size: 1.5rem;
 }
 
 .firstButton {
@@ -215,6 +224,7 @@ h1 {
 
 #firstButtonWordColor{
      color: white;
+     font-size: 1.5rem;
 }
 
 main {
@@ -223,10 +233,11 @@ main {
      float: left;
      background-image: url("../image/mainHead.jpeg");
      background-repeat: no-repeat;
-     margin: auto;
-     background-position: center;
+     margin: 0 400px 0 0;
+     padding: 0 400px 0 0;
+     background-position: right;
      background-size: cover;
-     
+     clip-path: ellipse(1450px 550px at 40% 20%);
 }
 
 .mainPhoto {
@@ -251,13 +262,15 @@ main {
      color: white;
      width: 175px;
      height: 200px;
-     margin: 40px 0 40px 130px;
+     margin: 40px 0 40px 110px;
+     margin-top: 20px;
      padding: 30px 20px;
      font-size: 1.5rem;
 }
 
 .firstVisitFontSize{
-     font-size: 0.8rem;
+     font-size: 1rem;
+     margin-bottom: 10px;
 }
 
 .percentSize {
@@ -265,7 +278,7 @@ main {
 }
 
 .bookOnlineButton {
-     font-size: 1rem;
+     font-size: 1.2rem;
      height: auto;
      width: auto;
      padding: 10px 20px;
@@ -280,10 +293,11 @@ main {
 
  .services {
      float: left;
-     color: white;
+     color: black;
      height: auto;
      margin: 40px 0 0px 110px;
      /* padding: 0 20%; */
+     font-size: 2rem;
  }
 
 
@@ -292,7 +306,11 @@ main {
      width: 33.33333%;
      padding: 0 6%;
      margin: auto;
-     background-color: blue;
+}
+
+.servicesImage{
+     justify-content: center;
+     margin: 0 25%;
 }
 
 /* .service class */
