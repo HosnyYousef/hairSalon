@@ -21,6 +21,9 @@
 
 html {
      font-size: 62.5%;
+     font-family: 'Cinzel', serif;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Gideon Roman', cursive;
 }
 
 /******************************************
@@ -40,17 +43,31 @@ body {
 
 header {
      display: flex;
-     justify-content: space-between;
+     justify-content:space-around;
      align-content: stretch;
      align-items: center;
-     padding: 30px 10%;
-     font-size: 2rem;
+     padding: 15px;
+     font-size: 1.8rem;
      align-content: stretch;
+     font-family: 'Cinzel', serif;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Gideon Roman', cursive;
+     font-weight: 700;
+     color: black;
 }
 
-header > nav {
-     padding-top: 40px;
+a {
+     color: black;
+     text-decoration:none;
+   }
+
+/* .endLinkLeft {
+     padding: 0 0 0 10px;
 }
+
+.endLinkRight {
+     padding: 10px 0 0 0;
+} */
 
 /* .gg-search, .gg-shopping-bag {
 float: right;
@@ -58,69 +75,38 @@ margin: 20px;
 border: 10px;
 } */
 
-.HeaderIcons{ 
+.headerIcons{ 
      width: auto; 
      display: inline-block;
      justify-content: space-evenly;
 }
 
+.fa fa-search{
+     padding: 2px;
+}
 
-/* search */
-.gg-search {
-     box-sizing: border-box;
-     position: relative;
-     display: block;
-     transform: scale(var(--ggs,1));
-     width: 16px;
-     height: 16px;
-     border: 2px solid;
-     border-radius: 100%;
-     margin-left: -4px;
-     margin-top: -4px;
-     flex-direction:column-reverse;
- }
- .gg-search::after {
-     content: "";
-     display: block;
-     box-sizing: border-box;
-     position: absolute;
-     border-radius: 3px;
-     width: 2px;
-     height: 8px;
-     background: currentColor;
-     transform: rotate(-45deg);
-     top: 10px;
-     left: 12px;
+/* ICONS */
+
+.searchIcon{
+     padding: 1px;
+}
+
+.cartIcon{
+     padding: 1px;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+     content: "\f002";
+     padding: 10px;
  }
 
-/* shopping bag */
-   .gg-shopping-bag {
-     transform: scale(var(--ggs,1))
- }
- .gg-shopping-bag,
- .gg-shopping-bag::after {
-     box-sizing: border-box;
-     position: relative;
-     display: block;
-     width: 20px;
-     height: 20px;
-     border: 2px solid;
-     border-radius: 3px;
-     float: right;
- }
- .gg-shopping-bag::after {
-     content: "";
-     position: absolute;
-     width: 10px;
-     height: 6px;
-     border-bottom-left-radius: 120px;
-     border-bottom-right-radius: 120px;
-     border-top: 0;
-     top: 2px;
-     left: 3px;
+ .fa-bag-shopping:before, .fa-shopping-bag:before {
+     content: "\f290";
+     padding: 0 18px 0 0;
  }
 
-   
+/* BODY */
+
+
 .logo {
      cursor: pointer;
 }
@@ -213,7 +199,9 @@ h1 {
 }
 
 .mainTitle {
-     font-size: 7rem;
+     font-size: 10rem;
+     font-weight: 400;
+     padding: 0 500px 0 0;
 }
 
 .firstButton {
@@ -225,6 +213,9 @@ h1 {
      padding: 10px 30px;
 }
 
+#firstButtonWordColor{
+     color: white;
+}
 
 main {
      width:100%;
