@@ -391,13 +391,72 @@ main {
 
 /* TEAM */
 
+.teamSection {
+     margin: 25%;
+}
+
 #person1 {
      background-image: url("../image/img1.jpeg");
      background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
      height: 400px;
      width: 200px;
      float: left;
-     margin: 60px;
+     margin: 60px 0;
+}
+
+#person2 {
+     background-image: url("../image/img2.jpeg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     height: 400px;
+     width: 200px;
+     float: left;
+     margin: 60px 20px;
+}
+
+#person3 {
+     background-image: url("../image/img3.jpeg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     height: 400px;
+     width: 200px;
+     float: left;
+     margin: 60px 0;
+}
+
+.personButton {
+     margin: 310px 0 0 12px;
+     background-color: black;
+}
+
+.TeamFontColor {
+     color: white;
+}
+
+/* DEAL */
+
+.dealSection {
+     float: left;
+     background-color: #F1F2F5;
+     width: 70%;
+     height: 250px;
+     margin: 100px 200px;
+}
+
+.dealButton {
+     color: white;
+     background-color: black;
+     font-size: 1rem;
+}
+
+/* LOOKBOOK */
+
+.LookbookSection {
+     float: left;
 }
 
 /* OTHER */
