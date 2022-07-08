@@ -295,7 +295,7 @@ main {
      float: left;
      color: black;
      height: auto;
-     margin: 40px 0 0px 110px;
+     margin: 40px 90px;
      /* padding: 0 20%; */
      font-size: 2rem;
  }
@@ -309,8 +309,7 @@ main {
 }
 
 .servicesImage{
-     justify-content: center;
-     margin: 0 25%;
+     margin: 0 38%;
 }
 
 /* .service class */
@@ -334,10 +333,28 @@ main {
 
 .momentumvideo {
      float: left;
-     background-color: rebeccapurple;
+     background-color: #F1F2F5;
      width: 100%;
-     margin: 40px 0 40px 0px;
-     padding: 0px 0 0px 110px;
+     margin: 60px 0px;
+     padding: 40px 90px;
+}
+
+.momentum{
+    padding: 0px 90px 0 90px;
+}
+
+.momentumButton {
+     background-color: black;
+     
+}
+
+.momentumFontColor{
+     color: white;
+}
+
+.endvideo{
+     padding: 0px 50px 0 60px;
+     /* margin: 0px 50px 0 0; */
 }
 
 /* body section {
@@ -371,6 +388,38 @@ main {
 /* body section > section + section{
      width: 50%;
 } */
+
+/* TEAM */
+
+#person1 {
+     background-image: url("../image/img1.jpeg");
+     background-repeat: no-repeat;
+     height: 400px;
+     width: 200px;
+     float: left;
+     margin: 60px;
+}
+
+/* OTHER */
+
+.serviceTitles {
+     text-align: center;
+     margin-top: 5%;
+}
+
+.sentence{
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.5rem;
+     margin-top: 5%;
+     text-align:center
+}
+
+.sentenceMiddle{
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.5rem;
+     margin-top: 5%;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -555,9 +604,4 @@ main {
      }
 
 }
-
-
-
-
-
 
