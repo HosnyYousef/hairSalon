@@ -444,7 +444,7 @@ main {
      background-color: #F1F2F5;
      width: 70%;
      height: 250px;
-     margin: 100px 200px;
+     margin: 0 200px 100px 200px;
 }
 
 .dealButton {
@@ -455,11 +455,47 @@ main {
 
 /* LOOKBOOK */
 
-.LookbookSection {
+/* .LookbookSection {
+     float: left;
+} */
+
+
+/* 
+.LookbookAllRowsImg {
+     float: left;
+} */
+
+.trimSquare{
+     object-fit: cover;
+}
+
+.LookbookAllRows {
+     float: left;
+     width: 33.33333%;
+}
+
+.row1 {
      float: left;
 }
 
-/* OTHER */
+.row2 {
+     float: left;
+}
+
+.row3{
+     float: left;
+}
+
+
+.lastImg{
+     object-fit: cover;
+}
+
+
+
+/****************************** 
+OTHER
+ *******************************/
 
 .serviceTitles {
      text-align: center;
