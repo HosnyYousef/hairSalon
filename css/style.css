@@ -393,10 +393,11 @@ main {
 
 .teamSection {
      margin: 25%;
+     
 }
 
 #person1 {
-     background-image: url("../image/img1.jpeg");
+     background-image: url("../image/teamPhoto1.jpeg");
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
@@ -407,7 +408,7 @@ main {
 }
 
 #person2 {
-     background-image: url("../image/img2.jpeg");
+     background-image: url("../image/teamPhoto2.jpeg");
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
@@ -418,7 +419,7 @@ main {
 }
 
 #person3 {
-     background-image: url("../image/img3.jpeg");
+     background-image: url("../image/teamPhoto3.jpeg");
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
@@ -443,10 +444,15 @@ DEAL
 
 .dealSection {
      float: left;
-     background-color: #F1F2F5;
-     width: 70%;
+     background-color: #F8EEEB;
+     background-image: url(../image/dealPhoto2.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 100%;
+     width: 56%;
      height: 250px;
-     margin: 0 200px 100px 200px;
+     padding: 13%;
+     margin: 0px 20% 10% 22%;
 }
 
 .dealButton {
@@ -476,9 +482,10 @@ LOOKBOOK
      width: 100%;
      height: auto;
      display: flex;
-     padding: 0 26%;
+     padding: 0 45%;
      /* border: 1px solid black; */
      justify-content: center;
+     margin-bottom: 8%;
 }
 
 .row1 {
