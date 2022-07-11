@@ -437,7 +437,9 @@ main {
      color: white;
 }
 
-/* DEAL */
+/********************* 
+DEAL 
+*********************/
 
 .dealSection {
      float: left;
@@ -452,8 +454,9 @@ main {
      background-color: black;
      font-size: 1rem;
 }
-
-/* LOOKBOOK */
+/****************************** 
+LOOKBOOK
+ *******************************/
 
 /* .LookbookSection {
      float: left;
@@ -470,28 +473,35 @@ main {
 }
 
 .LookbookAllRows {
-     float: left;
-     width: 33.33333%;
+     width: 100%;
+     height: auto;
+     display: flex;
+     padding: 0 26%;
+     /* border: 1px solid black; */
+     justify-content: center;
 }
 
 .row1 {
-     float: left;
+     flex-direction: column;
+     padding: 1%;
 }
 
 .row2 {
-     float: left;
+     flex-direction: column;
+     padding: 1%;
+
 }
 
 .row3{
-     float: left;
+     flex-direction: column;
+     padding: 1%;
+
 }
 
 
 .lastImg{
      object-fit: cover;
 }
-
-
 
 /****************************** 
 OTHER
