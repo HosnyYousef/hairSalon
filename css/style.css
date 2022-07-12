@@ -389,11 +389,19 @@ main {
      width: 50%;
 } */
 
-/* TEAM */
+
+/********************* 
+TEAM
+*********************/
 
 .teamSection {
-     margin: 25%;
-     
+     margin: 10%;
+     display:inline-flex;
+     justify-content: center;
+     align-content: center;
+     margin: 0 10% 0 27%;
+     padding-bottom: 10%;
+     /* font-size: 1rem; */
 }
 
 #person1 {
@@ -401,10 +409,12 @@ main {
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
-     height: 400px;
-     width: 200px;
-     float: left;
-     margin: 60px 0;
+     padding: 10%;
+     margin: 1%;
+     /* height: 400px;
+     width: 200px; */
+     /* float: left; */
+     /* margin: 60px 0; */
 }
 
 #person2 {
@@ -412,10 +422,12 @@ main {
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
-     height: 400px;
-     width: 200px;
-     float: left;
-     margin: 60px 20px;
+     padding: 12.6%;
+     margin: 1%;
+     /* height: 400px;
+     width: 200px; */
+     /* float: left; */
+     /* margin: 60px 20px; */
 }
 
 #person3 {
@@ -423,15 +435,20 @@ main {
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center;
-     height: 400px;
-     width: 200px;
-     float: left;
-     margin: 60px 0;
+     padding: 10%;
+     margin: 1%;
+     /* height: 400px;
+     width: 200px; */
+     /* float: left; */
+     /* margin: 60px 0; */
 }
 
 .personButton {
      margin: 310px 0 0 12px;
      background-color: black;
+     width: auto;
+     /* padding: 0 50%; */
+     justify-content: center;
 }
 
 .TeamFontColor {
@@ -443,23 +460,34 @@ DEAL
 *********************/
 
 .dealSection {
-     float: left;
+     /* float: left; */
+     display:inline-flex;
      background-color: #F8EEEB;
      background-image: url(../image/dealPhoto2.png);
      background-repeat: no-repeat;
      background-size: contain;
-     background-position: 100%;
+     background-position: 100%;   
      width: 56%;
      height: 250px;
-     padding: 13%;
+     padding: 10%;
      margin: 0px 20% 10% 22%;
+     justify-content: center;
+     flex-direction: column;
 }
 
 .dealButton {
      color: white;
      background-color: black;
-     font-size: 1rem;
+     font-size: 0.9rem;
+     margin: 20px 260px 0 0;
 }
+
+.dealSectionText {
+     font-size: 2rem;
+}
+
+
+
 /****************************** 
 LOOKBOOK
  *******************************/
