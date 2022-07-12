@@ -72,6 +72,8 @@ a {
      font-size: 1.5rem;
 } 
 
+
+
 /* .gg-search, .gg-shopping-bag {
 float: right;
 margin: 20px;
@@ -329,7 +331,9 @@ main {
 
 } */
 
-
+/********************* 
+VIDEO/ABOUT US
+*********************/
 
 .momentumvideo {
      float: left;
@@ -400,7 +404,7 @@ TEAM
      justify-content: center;
      align-content: center;
      margin: 0 10% 0 27%;
-     padding-bottom: 10%;
+     /* padding-bottom: 10%; */
      /* font-size: 1rem; */
 }
 
@@ -470,7 +474,7 @@ DEAL
      width: 56%;
      height: 250px;
      padding: 10%;
-     margin: 0px 20% 10% 22%;
+     margin: 0px 20% 7% 22%;
      justify-content: center;
      flex-direction: column;
 }
@@ -480,10 +484,12 @@ DEAL
      background-color: black;
      font-size: 0.9rem;
      margin: 20px 260px 0 0;
+     
 }
 
 .dealSectionText {
      font-size: 2rem;
+     display: inline-block;
 }
 
 
@@ -506,6 +512,20 @@ LOOKBOOK
      object-fit: cover;
 }
 
+.LookbookSectionText {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     font-size: 2rem;
+}
+
+.LookbookSectionLine {
+     border-bottom: 2px solid black;
+     margin: 0 49%;
+     padding-bottom: 1%;
+     margin-bottom: 3%;
+}
+
 .LookbookAllRows {
      width: 100%;
      height: auto;
@@ -514,6 +534,7 @@ LOOKBOOK
      /* border: 1px solid black; */
      justify-content: center;
      margin-bottom: 8%;
+     
 }
 
 .row1 {
