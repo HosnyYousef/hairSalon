@@ -431,65 +431,37 @@ TEAM
 *********************/
 
 .teamSection {
-     margin: 10%;
-     display:inline-flex;
+     display: flex;
      justify-content: center;
-     align-content: center;
-     margin: 0 22% 0 22%;
-     /* padding-bottom: 10%; */
-     /* font-size: 1rem; */
-}
-
-#person1 {
-     background-image: url("../image/teamPhoto1.jpeg");
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: center;
-     padding: 10%;
-     margin: 1%;
-     /* height: 400px;
-     width: 200px; */
-     /* float: left; */
-     /* margin: 60px 0; */
-}
-
-#person2 {
-     background-image: url("../image/teamPhoto2.jpeg");
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: center;
-     padding: 12.6%;
-     margin: 1%;
-     /* height: 400px;
-     width: 200px; */
-     /* float: left; */
-     /* margin: 60px 20px; */
-}
-
-#person3 {
-     background-image: url("../image/teamPhoto3.jpeg");
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: center;
-     padding: 10%;
-     margin: 1%;
-     /* height: 400px;
-     width: 200px; */
-     /* float: left; */
-     /* margin: 60px 0; */
-}
-
-.personButton {
-     margin: 310px 0 0 12px;
+     padding-top: 50px;
+     margin-top: 100px;
+     width: 100%;
+ }
+ 
+ .teamClasses {
+   margin: 0 1%;
+ }
+ 
+ .buttonOrganization{
+     display: flex;
+     justify-content: center;
+     padding-bottom: 100px;
+     
+ }
+ 
+ .personButton {
+     
+     margin: 0 3.9%;
+     margin-top: -23px;
+     padding: 2px 25px;
      background-color: black;
-     width: auto;
-     /* padding: 0 50%; */
-     justify-content: center;
-}
-
-.TeamFontColor {
+ }
+ 
+ .teamFontColor {
      color: white;
-}
+     font-size: 1rem;
+     margin: 0 -50% ;
+ }
 
 /********************* 
 DEAL 
@@ -651,6 +623,79 @@ Front page:
 
 .searchIcon:hover, .cartIcon:hover, .endLinkRight:hover, .button:hover{
      color: #0088a9;
+}
+
+@media only screen and (max-width: 1093px) {
+     .personButton {     
+          margin: 0 3.9%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 2503px) {
+     .personButton {     
+          margin: 0 3.1%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 2225px) {
+     .personButton {     
+          margin: 0 3.5%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 1669px) {
+     .personButton {     
+          margin: 0 4.5%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 1440px) {
+     .personButton {     
+          margin: 0 4.9%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 1260px) {
+     .personButton {     
+          margin: 0 5.9%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+
+@media only screen and (max-width: 800px) {
+     .personButton {     
+          margin: 0 7.9%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
+}
+
+@media only screen and (max-width: 690px) {
+     .personButton {     
+          margin: 0 10.9%;
+          margin-top: -23px;
+          padding: 2px 25px;
+      }
+     
 }
 
 @media only screen and (max-width: 1093px) {
